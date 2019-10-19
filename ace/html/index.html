@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta charset="utf-8" />
+		<title>Blank Page - Ace Admin</title>
+
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+		<!-- bootstrap & fontawesome -->
+		<link rel="stylesheet" href="../assets/css/bootstrap.css" />
+		<link rel="stylesheet" href="../assets/plugins/font-awesome/css/font-awesome.css" />
+
+		<!-- text fonts -->
+		<link rel="stylesheet" href="../assets/css/ace-fonts.css" />
+		<!-- ace styles -->
+		<link rel="stylesheet" href="../assets/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
+		
+		<!-- <link rel="stylesheet" href="../assets/css/tab-menu.css" /> -->
+
+		
+			
+		
+<style>
+.content-tabs {
+	border-bottom: solid 2px #2f4050;
+    position: relative;
+    height: 41px;
+    background: #fafafa;
+    line-height: 40px;
+}
+.breadcrumbs {
+    margin-left: 0px;
+    margin-right: 0px;
+	min-height: 35px;
+	line-height: 30px;
+	font-family: "SimSun";
+}
+.content-tabs .roll-left {
+    left: 0;
+    border-right: solid 1px #eee;
+}
+.content-tabs .roll-nav, .page-tabs-list {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    color: #999;
+    z-index: 2;
+    top: 0;
+	margin-top: 5px;
+}
+nav.page-tabs {
+    margin-left: 40px;
+    height: 30px;
+    overflow: hidden;
+	margin-top: 5px;
+}
+nav.page-tabs .page-tabs-content {
+    float: left;
+}
+.page-tabs a.active {
+    background: #fff;
+    color: #a7b1c2;
+}
+
+.page-tabs a {
+	color: #999;
+    display: block;
+    float: left;
+    padding: 0 15px;
+    outline: none; 
+}
+.J_menuTab {
+    -webkit-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+.roll-right.J_tabRight {
+    right: 140px;
+}
+.content-tabs .roll-right {
+    right: 0px;
+    border-left: solid 1px #eee;
+}
+
+.content-tabs button {
+    background: #fff;
+    border: 0;
+    height: 40px;
+    width: 40px;
+    outline: 0;
+}
+
+.content-tabs a:hover{
+	text-decoration:none
+}
+
+.roll-right.btn-group {
+    right: 60px;
+    width: 80px;
+    padding: 0;
+}
+.roll-right.btn-group button {
+    width: 80px;
+}
+a {
+    cursor: pointer;
+}
+
+.roll-right.J_tabRight {
+    right: 0px;
+}
+
+.J_mainContent {
+    height: calc(100vh - 121px);
+}
+#rightMenu li {
+    width: 100px!important;
+}
+#rightMenu i.menu-icon.fa {
+    margin-right: 10px;
+}
+
+#rightMenu ul li {
+	border:1px solid #f1f1f1;
+	height:25px;
+	line-height:22px;
+	background-position:right -8px;
+    padding: 0 5px;
+}
+
+#rightMenu ul li.active {
+    padding: 0 5px;
+	height:25px;
+}
+.J_menuTab {
+	letter-spacing: 1px;
+    text-transform: uppercase;
+    border-right: 1px #dcdcdc solid;
+    border-left: 1px #dcdcdc solid;
+    border-top: 1px #dcdcdc solid;
+    border-top-right-radius: 6px!important;
+	border-top-left-radius: 6px!important;
+    background-image: -moz-linear-gradient(top,#fff,#f5f5f5);
+    background-image: -ms-linear-gradient(top,#fff,#f5f5f5);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#fafaf9),to(#f5f5f5));
+    background-image: -webkit-linear-gradient(top,#fff,#f5f5f5);
+    background-image: -o-linear-gradient(top,#fff,#f5f5f5);
+    background-image: linear-gradient(top,#fff,#f5f5f5);
+    background-repeat: repeat-x;
+}
+
+
+.sidebar .sidebar-toggle {
+    border-style: none;
+}
+.footer .footer-inner .footer-content {
+    bottom: 0px;
+    padding: 0px;
+	line-height: 30px;
+}
+
+.page-content {
+    padding: 3px 15px 24px;
+}
+	.footer {
+		padding-top: 67px;
+	}
+
+</style>
+	</head>
+
+	<body class="no-skin">
+		<!-- #section:basics/navbar.layout -->
+		<div id="navbar" class="navbar navbar-default          ace-save-state">
+			<div class="navbar-container ace-save-state" id="navbar-container">
+
+			</div>
+		</div>
+
+		<div class="main-container ace-save-state" id="main-container">
+			<script type="text/javascript">
+				try{ace.settings.loadState('main-container')}catch(e){}
+			</script>
+
+			<!-- #section:basics/sidebar -->
+			<div id="sidebar" class="sidebar responsive ace-save-state">
+				<script type="text/javascript">
+					try{ace.settings.loadState('sidebar')}catch(e){}
+				</script>
+
+				<ul class="nav nav-list">
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								UI &amp; Elements
+							</span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+
+									Layouts
+									<b class="arrow fa fa-angle-down"></b>
+								</a>
+
+								<b class="arrow"></b>
+
+								<ul class="submenu">
+									<li class="">
+										<a href="top-menu.html" class="J_menuItem">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Top Menu
+										</a>
+
+										<b class="arrow"></b>
+									</li>
+
+									<li class="">
+										<a href="two-menu-1.html" class="J_menuItem">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Two Menus 1
+										</a>
+
+										<b class="arrow"></b>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+
+					<li class="">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-list"></i>
+							<span class="menu-text"> Tables </span>
+
+							<b class="arrow fa fa-angle-down"></b>
+						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="">
+								<a href="tables.html" class="J_menuItem">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Simple &amp; Dynamic
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+
+							<li class="">
+								<a href="jqgrid.html" class="J_menuItem">
+									<i class="menu-icon fa fa-caret-right"></i>
+									jqGrid plugin
+								</a>
+
+								<b class="arrow"></b>
+							</li>
+						</ul>
+					</li>
+				</ul>
+
+				<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
+					<i id="sidebar-toggle-icon" class="ace-icon fa fa-angle-double-left ace-save-state" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+				</div>
+			</div>
+
+			<!-- /section:basics/sidebar -->
+			<div class="main-content">
+				<div class="main-content-inner">
+					<!--<div class="row content-tabs breadcrumbs ace-save-state">
+						<button class="roll-nav roll-left J_tabLeft"><i class="fa fa-backward"></i>
+						</button>
+						<nav class="page-tabs J_menuTabs">
+							<div class="page-tabs-content">
+								<a href="javascript:;" class="active J_menuTab index-page" data-id="index_v1.html">首页</a>
+							</div>
+						</nav>
+						<button class="roll-nav roll-right J_tabRight"><i class="fa fa-forward"></i>
+						</button>
+					</div>-->
+
+					<div class="page-content">
+						<div class="row J_mainContent" id="content-main">
+							<iframe onload="changeFrameHeight()" id="J_iframe" class="J_iframe" name="iframe0" width="100%" height="100%" src="http://www.baidu.com" frameborder="0" data-id="index_v1.html" seamless></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer">
+				<div class="footer-inner">
+					<!-- #section:basics/footer -->
+					<div class="footer-content">
+						<span class="bigger-120">
+							<span class="blue bolder">Ace</span>
+							Application &copy; 2013-2014
+						</span>
+
+						&nbsp; &nbsp;
+						<span class="action-buttons">
+							<a href="#">
+								<i class="ace-icon fa fa-twitter-square light-blue bigger-150"></i>
+							</a>
+
+							<a href="#">
+								<i class="ace-icon fa fa-facebook-square text-primary bigger-150"></i>
+							</a>
+
+							<a href="#">
+								<i class="ace-icon fa fa-rss-square orange bigger-150"></i>
+							</a>
+						</span>
+					</div>
+
+					<!-- /section:basics/footer -->
+				</div>
+			</div>
+
+			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+				<i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
+			</a>
+		</div>
+
+		
+		<script src="../assets/js/jquery.min.js"></script>
+
+		<script type="text/javascript">
+			if('ontouchstart' in document.documentElement) document.write("<script src='../assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+		</script>
+		<script src="../assets/js/bootstrap.min.js"></script>
+
+		<script src="../assets/js/src/ace.js"></script>
+		<script src="../assets/js/src/ace.basics.js"></script>
+
+
+
+		<script src="../assets/js/src/ace.sidebar.js"></script>
+		<script src="../assets/js/src/ace.sidebar-scroll-1.js"></script>
+	
+		<!--<script src="../assets/js/tab-menu.js"></script> -->
+		<script src="../assets/js/contabs.js"></script>
+		<script type="text/javascript" language="javascript">  
+
+		window.onresize=function(){  
+			 changeFrameHeight(); 
+		} 
+		function changeFrameHeight(){
+			var ifmHeight = document.documentElement.clientHeight - 130;
+			$(".main-content").css("height",ifmHeight);
+			
+			var height = document.documentElement.clientHeight - 130;
+			$(".nav-list").css("height",height);
+		}
+		
+		
+		$(function() {
+			//控制小三角
+			$(".nav.nav-list a").click(function(){
+				if(!$(this).hasClass("dropdown-toggle")){
+					$(".nav.nav-list li").removeClass("active");
+					$(this).parent().addClass("active");
+				}
+			});
+		});
+		
+		
+		
+		
+		
+
+		
+		</script>
+		
+	</body>
+</html>
